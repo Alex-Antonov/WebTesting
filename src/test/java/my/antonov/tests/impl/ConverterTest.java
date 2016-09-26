@@ -19,7 +19,7 @@ import java.util.List;
 /**
  * Created by alex on 23.09.2016.
  */
-@Features("Testing basic math operations")
+@Features("Testing converter")
 @RunWith(value = Parameterized.class)
 public abstract class ConverterTest extends AbstractTesting {
 
