@@ -1,0 +1,153 @@
+{
+  "uid" : "be45aa06ff658785",
+  "name" : "testConvert[From RUR to USD value 20]",
+  "title" : "Test convert [From RUR to USD value 20]",
+  "time" : {
+    "start" : 1474878888280,
+    "stop" : 1474878940482,
+    "duration" : 52202
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Test converting from RUR to USD",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "363b6403703dcb7f",
+    "name" : "my.antonov.tests.impl.converter.TestConvertRURtoUDS",
+    "title" : "Test convert RU rto UDS"
+  },
+  "steps" : [ {
+    "name" : "getConverterPage",
+    "title" : "Go to converter page",
+    "time" : {
+      "start" : 1474878923284,
+      "stop" : 1474878935762,
+      "duration" : 12478
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectFromCurrency[RUR]",
+    "title" : "Select converting from: RUR",
+    "time" : {
+      "start" : 1474878935766,
+      "stop" : 1474878936638,
+      "duration" : 872
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectToCurrency[USD]",
+    "title" : "Select converting to: USD",
+    "time" : {
+      "start" : 1474878936638,
+      "stop" : 1474878937544,
+      "duration" : 906
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setInputSumValue[20]",
+    "title" : "Set input value: 20",
+    "time" : {
+      "start" : 1474878937747,
+      "stop" : 1474878939294,
+      "duration" : 1547
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "submitConvert",
+    "title" : "Submiting to convert",
+    "time" : {
+      "start" : 1474878939310,
+      "stop" : 1474878940044,
+      "duration" : 734
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "makeScreenshot",
+    "source" : "81f9afb4-6951-427d-a766-13913e4634fb-attachment.png",
+    "type" : "image/png",
+    "size" : 159791,
+    "uid" : "76835305c430a14e"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "my.antonov.tests.impl.converter.TestConvertRURtoUDS"
+  }, {
+    "name" : "thread",
+    "value" : "9800@littlebro.pool-1-thread-2(13)"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Test converting"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "littlebro"
+  }, {
+    "name" : "story",
+    "value" : "RUR to USD"
+  } ],
+  "parameters" : [ {
+    "name" : "convert from",
+    "value" : "RUR",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "convert to",
+    "value" : "USD",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "input value",
+    "value" : "20",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "result",
+    "value" : "0.31",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

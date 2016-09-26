@@ -1,0 +1,150 @@
+{
+  "features" : [ {
+    "title" : "Test converting",
+    "statistic" : {
+      "total" : 4,
+      "passed" : 4,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "d18a525e2cff9956",
+      "title" : "RUR to USD",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "be45aa06ff658785",
+        "name" : "testConvert[From RUR to USD value 20]",
+        "title" : "Test convert [From RUR to USD value 20]",
+        "time" : {
+          "start" : 1474878888280,
+          "stop" : 1474878940482,
+          "duration" : 52202
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "eff5d8fa21661868",
+        "name" : "testConvert[From RUR to USD value 1000]",
+        "title" : "Test convert [From RUR to USD value 1000]",
+        "time" : {
+          "start" : 1474878888295,
+          "stop" : 1474878931524,
+          "duration" : 43229
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "df66732c942d422d",
+      "title" : "USD to RUR",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "35e65f9c15e54fa3",
+        "name" : "testConvert[From USD to RUR value 40]",
+        "title" : "Test convert [From USD to RUR value 40]",
+        "time" : {
+          "start" : 1474878940700,
+          "stop" : 1474878982876,
+          "duration" : 42176
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "71131a0ac0c1a304",
+        "name" : "testConvert[From USD to RUR value 2000]",
+        "title" : "Test convert [From USD to RUR value 2000]",
+        "time" : {
+          "start" : 1474878940716,
+          "stop" : 1474879103610,
+          "duration" : 162894
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  }, {
+    "title" : "Switch to currency tab",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "37fe40809c7b6a8c",
+      "title" : "Check web fuctional",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "af758688131faa3d",
+        "name" : "testSwitcherToCurrency",
+        "title" : "Test switcher to currency",
+        "time" : {
+          "start" : 1474879103657,
+          "stop" : 1474879129183,
+          "duration" : 25526
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  }, {
+    "title" : "Switch to metal tab",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "ad981d86ac87f5f",
+      "title" : "Check web fuctional",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "d527c13b80c023fa",
+        "name" : "testSwitcherToMetal",
+        "title" : "Test switcher to metal",
+        "time" : {
+          "start" : 1474879103672,
+          "stop" : 1474879138694,
+          "duration" : 35022
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,92 @@
+{
+  "uid" : "d527c13b80c023fa",
+  "name" : "testSwitcherToMetal",
+  "title" : "Test switcher to metal",
+  "time" : {
+    "start" : 1474879103672,
+    "stop" : 1474879138694,
+    "duration" : 35022
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Testing switcher from currency to metal",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "e81541df29aa19c3",
+    "name" : "my.antonov.tests.impl.CurrencyFuncTest",
+    "title" : "Currency func test"
+  },
+  "steps" : [ {
+    "name" : "clickOnMetalsInPersonalRates",
+    "title" : "Click on metal tab menu",
+    "time" : {
+      "start" : 1474879136816,
+      "stop" : 1474879137629,
+      "duration" : 813
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "isMetalTabActive",
+    "title" : "Check is metal class in active state",
+    "time" : {
+      "start" : 1474879137631,
+      "stop" : 1474879137875,
+      "duration" : 244
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "makeScreenshot",
+    "source" : "35a05f0f-f50a-4523-a0ce-a9d9027423d2-attachment.png",
+    "type" : "image/png",
+    "size" : 603304,
+    "uid" : "4431654a62574837"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "9800@littlebro.pool-1-thread-6(30)"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "my.antonov.tests.impl.CurrencyFuncTest"
+  }, {
+    "name" : "feature",
+    "value" : "Switch to metal tab"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "Check web fuctional"
+  }, {
+    "name" : "host",
+    "value" : "littlebro"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,92 @@
+{
+  "uid" : "af758688131faa3d",
+  "name" : "testSwitcherToCurrency",
+  "title" : "Test switcher to currency",
+  "time" : {
+    "start" : 1474879103657,
+    "stop" : 1474879129183,
+    "duration" : 25526
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Testing switcher from metal to currency",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "e81541df29aa19c3",
+    "name" : "my.antonov.tests.impl.CurrencyFuncTest",
+    "title" : "Currency func test"
+  },
+  "steps" : [ {
+    "name" : "clickOnCurrencyInPersonalRates",
+    "title" : "Click on currency tab menu",
+    "time" : {
+      "start" : 1474879126757,
+      "stop" : 1474879127696,
+      "duration" : 939
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "isCurrencyTabActive",
+    "title" : "Check is currency class in active state",
+    "time" : {
+      "start" : 1474879127699,
+      "stop" : 1474879127936,
+      "duration" : 237
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "makeScreenshot",
+    "source" : "a4a0c98d-4ec7-413b-b2f2-bd2c2344fd96-attachment.png",
+    "type" : "image/png",
+    "size" : 604198,
+    "uid" : "fe422c002bd3bd12"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "my.antonov.tests.impl.CurrencyFuncTest"
+  }, {
+    "name" : "thread",
+    "value" : "9800@littlebro.pool-1-thread-5(29)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "Check web fuctional"
+  }, {
+    "name" : "feature",
+    "value" : "Switch to currency tab"
+  }, {
+    "name" : "host",
+    "value" : "littlebro"
+  } ],
+  "parameters" : [ ]
+}

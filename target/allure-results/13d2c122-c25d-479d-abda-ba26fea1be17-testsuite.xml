@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1474878888217" stop="1474879138704" version="1.4.24.RC2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>my.antonov.tests.impl.converter.TestConvertRURtoUDS</name>
+    <test-cases>
+        <test-case start="1474878888280" stop="1474878940482" status="passed">
+            <name>testConvert[From RUR to USD value 20]</name>
+            <description type="text">Test converting from RUR to USD</description>
+            <steps>
+                <step start="1474878923284" stop="1474878935762" status="passed">
+                    <name>getConverterPage</name>
+                    <title>Go to converter page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1474878935766" stop="1474878936638" status="passed">
+                    <name>selectFromCurrency[RUR]</name>
+                    <title>Select converting from: RUR</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1474878936638" stop="1474878937544" status="passed">
+                    <name>selectToCurrency[USD]</name>
+                    <title>Select converting to: USD</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1474878937747" stop="1474878939294" status="passed">
+                    <name>setInputSumValue[20]</name>
+                    <title>Set input value: 20</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1474878939310" stop="1474878940044" status="passed">
+                    <name>submitConvert</name>
+                    <title>Submiting to convert</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="makeScreenshot" source="81f9afb4-6951-427d-a766-13913e4634fb-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="RUR to USD"/>
+                <label name="feature" value="Test converting"/>
+                <label name="host" value="littlebro"/>
+                <label name="thread" value="9800@littlebro.pool-1-thread-2(13)"/>
+            </labels>
+            <parameters>
+                <parameter name="convert from" value="RUR" kind="environment-variable"/>
+                <parameter name="convert to" value="USD" kind="environment-variable"/>
+                <parameter name="input value" value="20" kind="environment-variable"/>
+                <parameter name="result" value="0.31" kind="environment-variable"/>
+            </parameters>
+        </test-case>
+        <test-case start="1474878888295" stop="1474878931524" status="passed">
+            <name>testConvert[From RUR to USD value 1000]</name>
+            <description type="text">Test converting from RUR to USD</description>
+            <steps>
+                <step start="1474878913564" stop="1474878925750" status="passed">
+                    <name>getConverterPage</name>
+                    <title>Go to converter page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1474878925757" stop="1474878926914" status="passed">
+                    <name>selectFromCurrency[RUR]</name>
+                    <title>Select converting from: RUR</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1474878926919" stop="1474878927823" status="passed">
+                    <name>selectToCurrency[USD]</name>
+                    <title>Select converting to: USD</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1474878928020" stop="1474878929718" status="passed">
+                    <name>setInputSumValue[1000]</name>
+                    <title>Set input value: 1000</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1474878929725" stop="1474878930508" status="passed">
+                    <name>submitConvert</name>
+                    <title>Submiting to convert</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="makeScreenshot" source="7aecfd9d-53b9-4748-915d-ff0911d2e14a-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="RUR to USD"/>
+                <label name="feature" value="Test converting"/>
+                <label name="host" value="littlebro"/>
+                <label name="thread" value="9800@littlebro.pool-1-thread-1(12)"/>
+            </labels>
+            <parameters>
+                <parameter name="convert from" value="RUR" kind="environment-variable"/>
+                <parameter name="convert to" value="USD" kind="environment-variable"/>
+                <parameter name="input value" value="1000" kind="environment-variable"/>
+                <parameter name="result" value="15.36" kind="environment-variable"/>
+            </parameters>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1474879103641" stop="1474879139041" version="1.4.24.RC2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>my.antonov.tests.impl.CurrencyFuncTest</name>
+    <test-cases>
+        <test-case start="1474879103657" stop="1474879129183" status="passed">
+            <name>testSwitcherToCurrency</name>
+            <description type="text">Testing switcher from metal to currency</description>
+            <steps>
+                <step start="1474879126757" stop="1474879127696" status="passed">
+                    <name>clickOnCurrencyInPersonalRates</name>
+                    <title>Click on currency tab menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1474879127699" stop="1474879127936" status="passed">
+                    <name>isCurrencyTabActive</name>
+                    <title>Check is currency class in active state</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="makeScreenshot" source="a4a0c98d-4ec7-413b-b2f2-bd2c2344fd96-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Check web fuctional"/>
+                <label name="feature" value="Switch to currency tab"/>
+                <label name="host" value="littlebro"/>
+                <label name="thread" value="9800@littlebro.pool-1-thread-5(29)"/>
+            </labels>
+        </test-case>
+        <test-case start="1474879103672" stop="1474879138694" status="passed">
+            <name>testSwitcherToMetal</name>
+            <description type="text">Testing switcher from currency to metal</description>
+            <steps>
+                <step start="1474879136816" stop="1474879137629" status="passed">
+                    <name>clickOnMetalsInPersonalRates</name>
+                    <title>Click on metal tab menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1474879137631" stop="1474879137875" status="passed">
+                    <name>isMetalTabActive</name>
+                    <title>Check is metal class in active state</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="makeScreenshot" source="35a05f0f-f50a-4523-a0ce-a9d9027423d2-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Check web fuctional"/>
+                <label name="feature" value="Switch to metal tab"/>
+                <label name="host" value="littlebro"/>
+                <label name="thread" value="9800@littlebro.pool-1-thread-6(30)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
